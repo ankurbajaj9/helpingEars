@@ -101,13 +101,13 @@ $(document).ready(function() {
 
   var distress = [
     [
-      23,
+      25,
       26,
       true,
       true,
       true,
       true,
-      "https://firebasestorage.googleapis.com/v0/b/helping-ears.appspot.com/o/1.png?alt=media&token=556d3b21-273e-4fd3-819e-723d97b9bc16",
+      "https://firebasestorage.googleapis.com/v0/b/helping-ears.appspot.com/o/2.png?alt=media&token=556d3b21-273e-4fd3-819e-723d97b9bc16",
       "8AM",
       "Living Room",
       "",
@@ -225,11 +225,11 @@ $(document).ready(function() {
       roomNo: "Common Room",
       eventType: "Level 3",
       category: "Fall",
-      accuracy: "80%",
+      accuracy: "65%",
       date: curDate(),
       time: timeNow(),
       imageURL:
-        "https://firebasestorage.googleapis.com/v0/b/helping-ears.appspot.com/o/1.png?alt=media&token=556d3b21-273e-4fd3-819e-723d97b9bc16",
+        "https://firebasestorage.googleapis.com/v0/b/helping-ears.appspot.com/o/2.png?alt=media&token=3301bc5b-50e9-45a2-b5ea-a3c9b2f47c52",
       notifications: [
         {
           level: "Level 3",
@@ -568,7 +568,7 @@ function addNotificationInChart(configuration, index) {
               </div>
              
               <div class="report-text-container1">
-                  <span class="report-label1">Accuracy –</span>
+                  <span class="report-label1">Probability –</span>
                   <span>${configuration.accuracy}</span>
               </div>
               
