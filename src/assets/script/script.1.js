@@ -225,7 +225,7 @@ $(document).ready(function() {
       roomNo: "Common Room",
       eventType: "Level 3",
       category: "Fall",
-      accuracy: "65%",
+      accuracy: "72.3%",
       date: curDate(),
       time: timeNow(),
       imageURL:
